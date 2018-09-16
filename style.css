@@ -2,16 +2,23 @@ body {
   background: yellow;
 }
 
-/*@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
   body {
-    background: url('./large-background.jpg') no-repeat center center fixed;
+    background: url('./large-background-1920px.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 }
-*/
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  body {
+    background: url('./large-background-900px.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
 @media screen and (max-width: 500px) {
   body {
-    background: url('./large-background.jpg') no-repeat center center fixed;
+    background: url('./large-background-500px.jpg') no-repeat center center fixed;
     background-size: cover;
   }
 }
